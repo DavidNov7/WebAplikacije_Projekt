@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="description" content="Događanja u zagrebu.">
+        <meta name="keywords" content="događanje, event, koncert, okupljanje, zagreb, muzej, kazalište, kino">
+		
+        <meta name="author" content="info@zagrebevents.org">
+		<!-- favicon meta -->
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+		<!-- end favicon meta -->
+		<!-- end meta elements -->
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet"> 
+		<!-- End Google Fonts -->
+		<title>Događanja u gradu - Zagreb</title>
+	</head>
+<body>
+	<header>
+		<div class="top-image"></div>
+		<nav>
+			<ul>
+			  <li><a href="index.html">Početna</a></li>
+			  <li><a href="omjesec.html">Doagađanja ovaj mjesec</a></li>
+			  <li><a href="galerija.html">Galerija</a></li>
+			  <li><a href="onama.html">O nama</a></li>
+			  <li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Kontakt obrazac</h1>
+		<div id="contact">
+		<iframe src="https://maps.google.com/maps?q=Ul.%20Marka%20Stan%C4%8Di%C4%87a%2010&t=&z=13&ie=UTF8&iwloc=&output=embed" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>			
+		<form action="kontakt.php" id="kontakt_forma" name="kontakt_forma" method="POST">
+				<label for="fname">Ime *</label>
+				<input type="text" id="fname" name="firstname" placeholder="Ime.." required>
+
+				<label for="lname">Prezime *</label>
+				<input type="text" id="lname" name="lastname" placeholder="Prezime.." required>
+				
+				<label for="email">E-mail *</label>
+				<input type="email" id="email" name="email" placeholder="Email.." required>
+
+				<label for="country">Država</label>
+				<select id="country" name="country">
+				  <option value="">Odaberite</option>
+				  <option value="AT">Austrija</option>
+				  <option value="BE"s>Belgija</option>
+				  <option value="BG">Bugarska</option>
+				  <option value="CZ">Češka</option>
+				  <option value="DN">Danska</option>
+				  <option value="ET">Estonija</option>
+				  <option value="FI">Finska</option>
+				  <option value="FR">Francuska</option>
+				  <option value="GR">Grčka</option>
+				  <option value="HR"selected>Hrvatska</option>
+				  <option value="IE">Irska</option>
+				  <option value="IT">Italija</option>
+				  <option value="LT">Latvija</option>
+				  <option value="LV">Litva</option>
+				  <option value="LU">Luksemburg</option>
+				  <option value="HU">Mađarska</option>
+				  <option value="MT">Malta</option>
+				  <option value="NL">Nizozemska</option>
+				  <option value="DE">Njemačka</option>
+				  <option value="PL">Poljska</option>
+				  <option value="PT">Portugal</option>
+				  <option value="RO">Rumunjska</option>
+				  <option value="SK">Slovačka</option>
+				  <option value="SI">Slovenija</option>
+				  <option value="ES">Španjolska</option>
+				  <option value="SE">Švedska</option>
+				  <option value="UK">Ujedinjeno Kraljevstvo</option>
+				  <option value="N/A">Ostalo</option>
+				</select>
+
+				<label for="subject">Vaša Poruka</label>
+				<textarea id="subject" name="subject" placeholder="Poruka..." style="height:200px"></textarea>
+
+				<input type="submit" value="Pošalji">
+			</form>
+		</div>
+	</main>
+	</body>
+<footer>
+		<p>Copyright &copy; 2019 David Novosel. <a href="https://github.com/DavidNov7/WebAplikacije_Projekt"><img src="images/git_logo.svg" alt="GitHub" title="Github"></a></p>
+</footer>
+</html>
